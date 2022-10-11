@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 2e522976-bf96-4f46-a7f6-4899723c5e37
+  application:
+    name: app-user
