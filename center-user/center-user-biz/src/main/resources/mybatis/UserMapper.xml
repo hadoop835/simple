@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zhanshen.dao.UserMapper">
+
+    <insert id="insert" parameterType="com.zhanshen.domain.UserEo">
+        insert into t_user (id, user_name, pass_word)
+        values (
+                #{id},
+                #{username},
+                #{password}
+               )
+    </insert>
+</mapper>
