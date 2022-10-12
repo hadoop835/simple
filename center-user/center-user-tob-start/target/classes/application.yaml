@@ -1,0 +1,22 @@
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 2e522976-bf96-4f46-a7f6-4899723c5e37
+  application:
+    name: center-user-tob-start
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      password: root
+      username: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: classpath*:mybatis/*.xml
+server:
+  port: 8082

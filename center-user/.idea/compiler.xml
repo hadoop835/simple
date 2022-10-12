@@ -6,17 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="center-user-api" />
-        <module name="center-user-start" />
         <module name="center-user-biz" />
+        <module name="center-user-tob-biz" />
+        <module name="center-user-tob" />
+        <module name="center-user-api" />
+        <module name="center-user-tob-start" />
+        <module name="center-user-tob-api" />
+        <module name="center-user-start" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="center-user-plugin" target="8" />
+      <module name="center-user-plugin-api" target="8" />
+      <module name="center-user-plugin-biz" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="center-user-api" options="-parameters" />
       <module name="center-user-biz" options="-parameters" />
+      <module name="center-user-plugin" options="-parameters" />
+      <module name="center-user-plugin-api" options="-parameters" />
+      <module name="center-user-plugin-biz" options="-parameters" />
       <module name="center-user-start" options="-parameters" />
+      <module name="center-user-tob" options="-parameters" />
+      <module name="center-user-tob-api" options="-parameters" />
+      <module name="center-user-tob-biz" options="-parameters" />
+      <module name="center-user-tob-start" options="-parameters" />
     </option>
   </component>
 </project>

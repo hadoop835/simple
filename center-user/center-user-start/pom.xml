@@ -29,5 +29,44 @@
              <groupId>org.springframework.boot</groupId>
              <artifactId>spring-boot-starter-web</artifactId>
          </dependency>
+         <dependency>
+             <groupId>com.alipay.sofa</groupId>
+             <artifactId>sofa-ark-springboot-starter</artifactId>
+         </dependency>
+         <dependency>
+             <groupId>com.alipay.sofa</groupId>
+             <artifactId>sofa-ark-all</artifactId>
+         </dependency>
+         <dependency>
+             <groupId>com.alipay.sofa</groupId>
+             <artifactId>sofa-ark-api</artifactId>
+         </dependency>
+         <dependency>
+             <groupId>com.zhanshen</groupId>
+             <artifactId>center-user-tob-start</artifactId>
+             <version>1.0-SNAPSHOT</version>
+             <classifier>ark-biz</classifier>
+         </dependency>
      </dependencies>
+    <build>
+        <plugins>
+            <!-- 这里可直接使用springboot的打包插件 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>target</outputDirectory>
+                    <classifier>ark-biz</classifier>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>package</id>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -4,5 +4,8 @@
     <file url="file://$PROJECT_DIR$/center-user-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/center-user-biz/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/center-user-start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-user-tob-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-user-tob-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-user-tob-start/src/main/java" charset="UTF-8" />
   </component>
 </project>

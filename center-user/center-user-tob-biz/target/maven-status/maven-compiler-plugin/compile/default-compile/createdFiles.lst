@@ -1,0 +1,5 @@
+com\zhanshen\dao\ScoringMapper.class
+com\zhanshen\impl\UserTobServiceImpl.class
+com\zhanshen\api\impl\ScoringApiImpl.class
+com\zhanshen\impl\UserTobService.class
+com\zhanshen\domain\Scoring.class

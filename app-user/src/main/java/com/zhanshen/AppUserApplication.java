@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients(basePackages = {"com.zhanshen.api"})
+@EnableFeignClients(basePackages = {"com.zhanshen"})
 public class AppUserApplication {
     public static void main(String[] args) {
         SpringApplication.run(AppUserApplication.class,args);

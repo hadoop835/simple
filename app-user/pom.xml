@@ -54,6 +54,11 @@
             <version>${center-user-api.version}</version>
         </dependency>
         <dependency>
+            <groupId>com.zhanshen</groupId>
+            <artifactId>center-user-tob-api</artifactId>
+            <version>${center-user-api.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>

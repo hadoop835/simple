@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app-user/app-user.iml" filepath="$PROJECT_DIR$/app-user/app-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/center-user/center-user.iml" filepath="$PROJECT_DIR$/center-user/center-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/center-user/center-user-api/center-user-api.iml" filepath="$PROJECT_DIR$/center-user/center-user-api/center-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/center-user/center-user-biz/center-user-biz.iml" filepath="$PROJECT_DIR$/center-user/center-user-biz/center-user-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/center-user/center-user-start/center-user-start.iml" filepath="$PROJECT_DIR$/center-user/center-user-start/center-user-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/simple.iml" filepath="$PROJECT_DIR$/.idea/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-parent/sofa-ark-user-spring/sofa-ark-spring.iml" filepath="$PROJECT_DIR$/spring-parent/sofa-ark-user-spring/sofa-ark-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-parent/sofa-ark-user-spring/sofa-ark-user-biz/sofa-ark-user-biz.iml" filepath="$PROJECT_DIR$/spring-parent/sofa-ark-user-spring/sofa-ark-user-biz/sofa-ark-user-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-parent/spring-parent.iml" filepath="$PROJECT_DIR$/spring-parent/spring-parent.iml" />
+    </modules>
+  </component>
+</project>
